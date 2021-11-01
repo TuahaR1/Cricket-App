@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tuah/Desktop/N_Template_final/app/src/main/res/layout/activity_join_team.xml" value="0.14" />
+        <entry key="..\:/Users/Tuah/Desktop/N_Template_final/app/src/main/res/layout/activity_join_team_req_list.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Tuah/Desktop/N_Template_final/app/src/main/res/layout/activity_ranking.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Tuah/Desktop/N_Template_final/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
+        <entry key="..\:/Users/Tuah/Desktop/N_Template_final/app/src/main/res/layout/fragment_dashboard.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/ic_join.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/ic_menu_camera.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/icon_background.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/input_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/repeater_back.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/drawable/sample_join_team_list.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_add_player.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_create_team.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_detail_player.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_join_team.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_join_team_req_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_select_player.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_set_match.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_team_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_umpiring.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_view_team.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/activity_virtual_umpiring.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/content_main.xml" value="0.8266129032258065" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/fragment_gallery.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/fragment_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/fragment_select__player.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/sample_add_player.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/sample_join_team_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/sample_team_list.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/layout/sample_view_team.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/N_Template/app/src/main/res/menu/main.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
