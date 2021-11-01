@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="335dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:background="#87CEEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/addplayer_sample_name"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:hint="Enter Player Name"
+                    android:background="@drawable/input_bg"/>
+
+                <EditText
+                    android:id="@+id/addplayer_sample_phone"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_bg"
+                    android:gravity="center"
+                    android:hint="Enter Player Phone #" />
+
+                <EditText
+                    android:id="@+id/addplayer_sample_age"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:hint="Enter Player Age"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_bg"/>
+                />
+
+                <EditText
+                    android:id="@+id/addplayer_sample_role"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:hint="Enter Player Role"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_bg"/>
+                />
+
+                <EditText
+                    android:id="@+id/addplayer_sample_address"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:hint="Enter Player Address"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_bg"/>
+                />
+
+            </LinearLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_sample_addplayer"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="60dp"
+                android:scrollbarTrackVertical="@drawable/camera"
+                android:src="@drawable/camera"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/dgreen"
+                android:text="Add"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btn_back_personalfragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/red"
+                android:text="Edit"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+
+        />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

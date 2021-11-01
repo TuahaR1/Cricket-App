@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:background="@color/light_grey"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingTop="10dp"
+        android:text="View Team "
+        android:textColor="@color/icon"
+        android:textSize="30dp"
+
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Strength : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/lbl_strength_view_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Type : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/view_team_recyclerview"
+        android:layout_width="399dp"
+        android:layout_height="570dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="3dp" />
+
+
+</LinearLayout>

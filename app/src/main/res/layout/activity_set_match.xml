@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Set_Match">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#87CEEB"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/abril_fatface"
+            android:gravity="center"
+            android:text="Set Match"
+            android:textColor="@color/icon"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_findnearest_setmatch"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/icon"
+            android:text="Find Nearest"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btn_findage_setmatch"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/icon"
+            android:text="Find By Age"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btn_showall_setmatch"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/icon"
+            android:text="Show All"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
